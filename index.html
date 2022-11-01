@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        图片<br>
+        本地图片<img src="download1.jpg" alt="加载失败" height="280">
+        远程图片<img src="https://s3.plumeta.com/i/2022/11/01/10hnzrb.jpg" alt="加载失败" width="400" height="280"><br>
+        超链接<br>
+        访问本地<a href="1.html#tip">网页</a><br>
+        防问远程<a href="http://bilibili.com">网页</a><br>
+        列表<br>
+        有序列表<br>
+        <ol>
+            <li>一号</li>
+            <li>二号</li>
+            <li>三号</li>
+        </ol>
+        无序列表<br>
+        <ul>
+            <li>一号</li>
+            <li>二号</li>
+            <li>三号</li>
+        </ul>
+        嵌套列表<br>
+        <ul>
+            <li>一号</li>
+            <ul>
+                <li>一号</li>
+                <ul>
+                    <li>一号</li>
+                    <li>二号</li>
+                </ul>
+                <li>二号</li>
+            </ul>
+            <li>二号</li>
+            <li>三号</li>
+        </ul>
+        表格<br>
+        <table border="1">
+            <caption>示例</caption>
+            <colgroup><!--行分组-->
+            <tr>
+                <thead><!--列分组-->
+                <th colspan="4">1.1</th>
+                </thead>
+                <tbody>
+                <th colspan="3">1.2</th>
+                <th>1.3</th>
+                </tbody>
+                <th colspan="4">1.4</th>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>2.2</td>
+                <td>2.3</td>
+                <td rowspan="2">2.4</th>
+            </tr>
+            </colgroup>
+            <tr>
+                <td>3.1</td>
+                <td>3.2</td>
+                <td>3.3</td>
+            </tr>
+        </table>
+        表单<br>
+        <form>
+            用户名:<input type="text"><br>
+            密码:<input type="password"><br>
+            昵称:<input type="text"><br>
+            联系方式:<input type="number"><br>
+            自我介绍:<br>
+            <textarea rows="10" cols="30">自我介绍</textarea><br>
+            <button>注册</button><button>忘记密码</button><button>发送验证码</button><br>
+            性别:<br>
+            男<input type="radio" name="sex">女<input type="radio" name="sex"><br>
+            爱好:<br>
+            填充项1<input type="checkbox" name="hobby">
+            填充项2<input type="checkbox" name="hobby">
+            填充项3<input type="checkbox" name="hobby">
+            填充项4<input type="checkbox" name="hobby"><br>
+            <select>
+                <option>软件2211</option>
+                <option>软件2212</option>
+                <option>软件2213</option>
+                <option>软件2214</option>
+            </select>
+        </form>
+    </body>
+</html>
